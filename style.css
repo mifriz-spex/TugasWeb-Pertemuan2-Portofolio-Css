@@ -33,7 +33,6 @@ body {
     line-height: 1.6;
 }
 
-/* 5. Flexbox untuk komponen 1: Header & Navigasi[cite: 1] */
 header {
     display: flex;
     flex-direction: column;
@@ -66,7 +65,7 @@ nav a:hover {
 
 main {
     display: grid;
-    grid-template-columns: 2fr 1fr; /* Membagi rasio 2:1 antara konten utama dan aside */
+    grid-template-columns: 2fr 1fr; 
     gap: var(--spacing-md);
     max-width: 1000px;
     margin: var(--spacing-md) auto;
